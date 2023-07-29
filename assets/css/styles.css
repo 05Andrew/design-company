@@ -27,4 +27,43 @@ footer {
 
 .feature-img {
   width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .feature-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #heading-logo {
+    width: 100px;
+  }
+
+  .card {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
 }
