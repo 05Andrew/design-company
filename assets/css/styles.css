@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F9F7F7;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #112D4E;
+}
+
+footer {
+  text-align: right;
+  color: #3F72AF;
+}
+
+.main {
+  flex: 1;
+}
+
+#heading-logo {
+  width: 200px;
+}
+
+.feature-img {
+  width: 300px;
+}
